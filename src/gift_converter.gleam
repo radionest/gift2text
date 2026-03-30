@@ -1,5 +1,5 @@
-import gleam/io
+import app
 
-pub fn main() -> Nil {
-  io.println("Hello from gift_converter!")
+pub fn main() {
+  app.main()
 }

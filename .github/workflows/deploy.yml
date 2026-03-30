@@ -28,7 +28,7 @@ jobs:
       - name: Build app
         run: gleam run -m lustre/dev build --minify --outdir=dist
       - name: Use custom index.html
-        run: cp index.html dist/index.html && sed -i 's|./build/dev/javascript/gift_converter/app.mjs|./gift_converter.js|' dist/index.html
+        run: cp index.html dist/index.html && sed -i 's|./build/dev/javascript/gift_converter/gift_converter.mjs|./gift_converter.js|' dist/index.html
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
