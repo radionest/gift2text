@@ -1,0 +1,6 @@
+build/
+.claude/settings.local.json
+
+#Added automatically by Lustre Dev Tools
+/.lustre
+/dist
